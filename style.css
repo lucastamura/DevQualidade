@@ -1,0 +1,83 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #196F3D;
+    font-family: Poppins;
+    color: #BBBBBB;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+
+.cacecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cacecalho img{
+    width: 20px;
+}
+
+.cacecalho a{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    background-color: #BBBBBB;
+    padding: 2%;
+    color: #51C85D;
+    font-weight:600;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 4px;
+}
+
+.curso{
+    background-color: #BBBBBB;
+    color: #196F3D;
+    width: 200px;
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+
+.curso img{
+    width: 90%;
+    
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curso a{
+    text-align: center;
+    width: 150px;
+    background-color: #196F3D;
+    padding: 2%;
+    color: #BBBBBB;
+    font-weight:500;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
